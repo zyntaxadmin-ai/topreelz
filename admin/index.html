@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#ffffff">
+<title>TopReelz Admin</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap">
+<link rel="stylesheet" href="admin.css">
+</head>
+<body>
+<div id="login">
+  <form class="lbox" id="lf">
+    <div class="logo">▶ TopReelz</div>
+    <p class="mut sm" style="text-align:center;margin:4px 0 10px">অ্যাডমিন প্যানেল</p>
+    <label>ইমেইল<input id="le" type="email" required autocomplete="username"></label>
+    <label>পাসওয়ার্ড<input id="lp" type="password" required autocomplete="current-password"></label>
+    <button class="btn" style="width:100%;margin-top:16px" type="submit">লগইন</button>
+    <p id="lerr" class="sm" style="color:var(--bad);margin-top:10px;text-align:center"></p>
+  </form>
+</div>
+
+<div id="app" hidden>
+  <nav class="side" id="side"></nav>
+  <div class="main"><div id="view"></div></div>
+</div>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
+<script src="admin1.js"></script>
+<script src="admin2.js"></script>
+<script src="admin3.js"></script>
+</body>
+  </html>
+  
