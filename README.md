@@ -1,26 +1,26 @@
 # TopReelz 🎬
 
-**TopReelz** একটি আধুনিক শর্ট ভিডিও ও রিলস প্ল্যাটফর্ম ওয়েবসাইট, যেখানে প্রকৃতি ও প্রাণীর চমৎকার সব ভিডিও সহজে উপভোগ করা যায়।
+**TopReelz** is a modern short video and reels platform website where users can easily enjoy amazing nature and wildlife videos.
 
 ---
 
-## 🌟 প্রধান বৈশিষ্ট্যসমূহ:
-* **ভিডিও গ্রিড ও ফিড:** সুন্দর এবং রেসপন্সিভ ডিজাইনে ভিডিও ব্রাউজ করার সুবিধা।
-* **সার্চ ও ফিল্টার:** সহজেই পছন্দের ভিডিও খুঁজে পাওয়ার সার্চ বার।
-* **ইউজার অ্যাকাউন্ট ও ওয়ালেট:** ব্যবহারকারী লগইন, নোটিফিকেশন সিস্টেম এবং ওয়ালেট ব্যালেন্স দেখার ব্যবস্থা।
-* **লাইভ চ্যাট:** ব্যবহারকারীদের সহায়তার জন্য ইন-বিল্ট চ্যাট বা যোগাযোগের ব্যবস্থা (`fab` বাটন)।
-* **অ্যাডমিন প্যানেল:** প্ল্যাটফর্ম ও ভিডিও নিয়ন্ত্রণের জন্য একটি ডেডিকেটেড অ্যাডমিন ড্যাশবোর্ড (`/admin/`).
-* **ক্লাউড ডেপ্লয়মেন্ট:** Cloudflare Workers (`wrangler.jsonc`) সাপোর্টেড।
+## 🌟 Key Features:
+* **Video Grid & Feed:** Beautiful and responsive design for browsing videos seamlessly.
+* **Search & Filter:** Search bar to easily find your favorite videos.
+* **User Account & Wallet:** User login, notification system, and wallet balance management.
+* **Live Chat:** In-built chat and support assistance (`fab` widget).
+* **Admin Panel:** Dedicated admin dashboard (`/admin/`) for platform and video management.
+* **Cloud Deployment:** Ready for Cloudflare Workers (`wrangler.jsonc`).
 
 ---
 
-## 📂 প্রোজেক্ট স্ট্রাকচার:
-* `index.html` – মূল হোমপেজ ও লেআউট।
-* `style1.css`, `style2.css` – সাইটের ডিজাইন ও স্টাইল ফাইল।
-* `app1.js`, `app2.js`, `app3.js`, `video.js` – জাভাস্ক্রিপ্ট কোর লজিক ও ভিডিও প্লেয়ার।
-* `i18n.js` – ভাষা ও লোকালাইজেশন সংক্রান্ত ফাইল।
-* `admin/` – অ্যাডমিন প্যানেল ফাইলসমূহ।
-* `wrangler.jsonc` – ক্লাউডফ্লায়ার কনফিগারেশন।
+## 📂 Project Structure:
+* `index.html` – Main homepage and layout.
+* `style1.css`, `style2.css` – Styling and design files.
+* `app1.js`, `app2.js`, `app3.js`, `video.js` – Core JavaScript logic and video player handlers.
+* `i18n.js` – Internationalization and localization script.
+* `admin/` – Admin panel files.
+* `wrangler.jsonc` – Cloudflare configuration.
 
 ---
-*উন্নত অভিজ্ঞতা এবং প্রকৃতি-প্রাণীর দারুণ ভিডিওর অভিজ্ঞতা পেতে **TopReelz** ব্যবহার করুন!*
+*Enjoy an amazing experience of breathtaking nature and wildlife videos with **TopReelz**!*
